@@ -11,6 +11,7 @@ function yourOrder(item) {
     orderItem.className = 'w-100 bg-success color-warning p-2 d-flex align-items-center text-warning  mb-3'
     orderItem.textContent = 'yourName:' + orderName.value.trim() +' '+'yourEmail:'+ orderEmail.value.trim() +' '+'yourOrder:'+ order.value
     const box = document.createElement('input')
+    box.className = 'me-1'
     box.type = 'checkbox'
     orderName.value = ''
     orderEmail.value = ''
